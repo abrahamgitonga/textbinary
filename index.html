@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AlutaText ↔ Binary Converter</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>AlutaText ↔ Binary Converter</h1>
+
+    <textarea id="textInput" placeholder="Enter text or binary here..."></textarea>
+
+    <div class="buttons">
+      <button onclick="convertToBinary()">Convert to Binary</button>
+      <button onclick="convertToText()">Convert to Text</button>
+      <button onclick="copyOutput()">Copy Output</button>
+    </div>
+
+    <textarea id="output" placeholder="Output appears here..." readonly></textarea>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
